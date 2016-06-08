@@ -22,7 +22,7 @@ class Fpdf_gen {
 		
 	public function __construct() {
 		
-		require_once APPPATH.'third_party/fpdf/fpdf-1.7.php';
+		require_once APPPATH.'third_party/fpdf/fpdf-1.8.php';
 		
 		$pdf = new FPDF();
 		$pdf->AddPage();
